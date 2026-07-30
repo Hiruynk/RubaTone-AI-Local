@@ -1,6 +1,6 @@
 # RubaTone AI Local
 
-RubaTone AI Local is the offline Windows edition of RubaTone AI, accompanied by an Android remote-control client. This repository intentionally contains no application source code. Installers, signed manifests, checksums, and runtime volumes are published on the [Releases](https://github.com/Hiruynk/RubaTone-AI-Local/releases) page.
+RubaTone AI Local is the offline Windows edition of RubaTone AI, accompanied by an Android remote-control client. This repository intentionally contains no application source code. Installers, signed manifests, checksums, and runtime volumes are published in the [Hugging Face release repository](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
 
 ## Windows
 
@@ -10,11 +10,15 @@ RubaTone AI Local is the offline Windows edition of RubaTone AI, accompanied by 
 - The Launcher downloads and verifies the selected runtime once. After a complete installation, the main application can run without Internet access.
 - RTX 5070 Ti 16 GB with NVIDIA driver 596.36 is the currently verified hardware configuration. Other listed RTX 40/50 models have not yet been verified on physical hardware.
 
+[Download the Windows Launcher installer](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Launcher-Setup.exe)
+
 ## Android
 
 - Android 10 or later
 - arm64
 - The APK is a remote client and must be paired with a Windows computer on the same private network. Without a reachable paired computer, only the home page is available.
+
+[Download the Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.0-arm64-release.apk)
 
 ## Local-data policy
 
@@ -22,6 +26,6 @@ No songs, models, training data, job history, preferences, or account database f
 
 ## Integrity
 
-Before installation, compare downloaded files with `SHA256SUMS.json`. The Launcher additionally verifies signed release manifests and every downloaded runtime volume before activating a version.
+Before installation, compare downloaded files with [`SHA256SUMS.json`](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/SHA256SUMS.json). The Launcher additionally verifies signed release manifests and every downloaded runtime volume before activating a version.
 
 This build is provided for private, non-commercial evaluation among the developer's friends. Third-party notices are included in the installed package.
