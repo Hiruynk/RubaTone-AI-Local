@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.6-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.6)
+  [![Release](https://img.shields.io/badge/release-v1.0.7-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -90,7 +90,7 @@ The APK is published, but the physical Android device matrix has not yet been va
 
 1. Download and run the [RubaTone AI Local Launcher installer](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe).
 2. Start with the safe default location, or customize it if needed. The Launcher detects the GPU and recommends a compatible variant automatically.
-3. Download the complete runtime. The Launcher fetches up to four volumes concurrently, then reports separate extraction/hash-verification and reconstruction phases instead of remaining at 100% download while the disk is active.
+3. Download the complete runtime. The Launcher keeps up to four volume transfers active while verifying completed volumes and reconstructing files whose chunks are ready. Download, processing, verification, and reconstruction each show the correct throughput and ETA.
 4. Start RubaTone AI Local after verification completes.
 
 The Launcher supports pause, resume, repair, move, optional updates, and rollback after a failed update. On startup it checks the saved and common installation locations for a valid existing RubaTone AI Local runtime before offering a download. If a complete version is already installed, it can be launched without Internet access.
@@ -140,11 +140,11 @@ You can also verify published files manually with [`SHA256SUMS.json`](https://hu
 
 | Component | Version | Status |
 |---|---:|---|
-| Windows Launcher | 1.0.6 | Released |
-| RTX 40 / 50 app / runtime | 1.0.3 | Released; RTX 5070 Ti validated |
+| Windows Launcher | 1.0.7 | Released |
+| RTX 40 / 50 app / runtime | 1.0.4 | Released; RTX 5070 Ti validated |
 | Android arm64 APK | 1.0.2 | Released; physical-device matrix pending |
 
-See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.6) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
+See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
 
 ## FAQ
 
