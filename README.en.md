@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.8-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8)
+  [![Release](https://img.shields.io/badge/release-v1.0.9-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.9)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -131,7 +131,7 @@ The cloud edition remains available at [rubatone-ai.hiruynk.com](https://rubaton
 - The Launcher can check for updates when opened; every update is optional.
 - Release manifests are signed, and clients accept only content verified by the embedded public key.
 - Runtime files use content chunks and SHA-256 verification, so only missing or changed data is downloaded.
-- Updates reconstruct only changed files in staging and reuse unchanged verified runtime files with same-volume hard links before activation.
+- Updates reconstruct only changed files. NTFS reuses unchanged runtime files with hard links; exFAT transactionally backs up and replaces only changed files and restores them after a failed first launch.
 - The previous working version is preserved and restored if activation fails.
 
 You can also verify published files manually with [`SHA256SUMS.json`](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/SHA256SUMS.json).
@@ -140,11 +140,11 @@ You can also verify published files manually with [`SHA256SUMS.json`](https://hu
 
 | Component | Version | Status |
 |---|---:|---|
-| Windows Launcher | 1.0.8 | Released |
+| Windows Launcher | 1.0.9 | Released |
 | RTX 40 / 50 app / runtime | 1.0.4 | Released; RTX 5070 Ti validated |
 | Android arm64 APK | 1.0.2 | Released; physical-device matrix pending |
 
-See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
+See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.9) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
 
 ## FAQ
 
