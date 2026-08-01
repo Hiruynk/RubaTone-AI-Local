@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.8-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8)
+  [![Release](https://img.shields.io/badge/release-v1.0.9-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.9)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -131,7 +131,7 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 - Launcher 每次開啟時可檢查更新；所有更新都可以略過。
 - manifest 使用發布金鑰簽署，Launcher 只接受內置公鑰所驗證的內容。
 - runtime 採內容分塊與 SHA-256 驗證，只下載缺少或變更的資料。
-- 更新只在 staging 重建變更檔案，未變更且已驗證的 runtime 以同磁碟硬連結沿用；成功後才切換。
+- 更新只在 staging 重建變更檔案；NTFS 以硬連結沿用未變更 runtime，exFAT 則只交易式備份及替換變更檔案，首次啟動失敗會自動回復。
 - 更新失敗時保留並回復上一個可啟動版本。
 
 你亦可下載 [`SHA256SUMS.json`](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/SHA256SUMS.json) 手動核對發布檔案。
@@ -140,11 +140,11 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 
 | 元件 | 版本 | 狀態 |
 |---|---:|---|
-| Windows Launcher | 1.0.8 | 已發布 |
+| Windows Launcher | 1.0.9 | 已發布 |
 | RTX 40／50 app／runtime | 1.0.4 | 已發布；RTX 5070 Ti 已驗證 |
 | Android arm64 APK | 1.0.2 | 已發布；尚待實體手機矩陣驗證 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8) 或 [Hugging Face 檔案列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.9) 或 [Hugging Face 檔案列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常見問題
 
