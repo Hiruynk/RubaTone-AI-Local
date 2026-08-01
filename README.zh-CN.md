@@ -141,7 +141,7 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 | 组件 | 版本 | 状态 |
 |---|---:|---|
 | Windows Launcher | 1.0.5 | 已发布 |
-| RTX 40 / 50 app / runtime | 1.0.2 | 已发布；RTX 5070 Ti 已验证 |
+| RTX 40 / 50 app / runtime | 1.0.3 | 已发布；RTX 5070 Ti 已验证 |
 | Android arm64 APK | 1.0.2 | 已发布；等待实体手机矩阵验证 |
 
 查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.5) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
