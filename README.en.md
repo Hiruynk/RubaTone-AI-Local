@@ -141,7 +141,7 @@ You can also verify published files manually with [`SHA256SUMS.json`](https://hu
 | Component | Version | Status |
 |---|---:|---|
 | Windows Launcher | 1.0.5 | Released |
-| RTX 40 / 50 app / runtime | 1.0.2 | Released; RTX 5070 Ti validated |
+| RTX 40 / 50 app / runtime | 1.0.3 | Released; RTX 5070 Ti validated |
 | Android arm64 APK | 1.0.2 | Released; physical-device matrix pending |
 
 See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.5) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
