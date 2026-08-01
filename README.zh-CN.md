@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.6-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.6)
+  [![Release](https://img.shields.io/badge/release-v1.0.7-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -90,7 +90,7 @@ APK 已发布，但目前尚未完成 Android 实体手机矩阵验证。
 
 1. 下载并运行 [RubaTone AI Local Launcher 安装器](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe)。
 2. 直接开始安装，或按需自定义位置；未选择时 Launcher 会使用安全的默认位置，并自动检测 GPU、推荐可用版本。
-3. 下载完整 runtime。Launcher 最多同时获取四个分卷，网络传输完成后会分别显示分卷拆解／哈希验证及文件重建进度，不会在磁盘仍忙碌时停留在“下载 100%”。
+3. 下载完整 runtime。Launcher 最多同时获取四个分卷，并在其他分卷下载期间立即验证已完成分卷及重建已具备全部 chunks 的文件；下载、处理、验证与重建会显示各自正确的速度及预计时间。
 4. 验证完成后启动 RubaTone AI Local。
 
 Launcher 支持暂停、续传、修复、移动、可选更新和更新失败回滚。启动时会先检查已保存位置及常见磁盘位置，寻找已验证且入口程序完整的现有 RubaTone AI Local；找到后不会要求重新下载。已有完整安装时，即使没有 Internet 也可直接启动当前版本。
@@ -140,11 +140,11 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 
 | 组件 | 版本 | 状态 |
 |---|---:|---|
-| Windows Launcher | 1.0.6 | 已发布 |
-| RTX 40 / 50 app / runtime | 1.0.3 | 已发布；RTX 5070 Ti 已验证 |
+| Windows Launcher | 1.0.7 | 已发布 |
+| RTX 40 / 50 app / runtime | 1.0.4 | 已发布；RTX 5070 Ti 已验证 |
 | Android arm64 APK | 1.0.2 | 已发布；等待实体手机矩阵验证 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.6) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常见问题
 
