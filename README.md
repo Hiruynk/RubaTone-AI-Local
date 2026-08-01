@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.1-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.1)
+  [![Release](https://img.shields.io/badge/release-v1.0.2-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.2)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -15,7 +15,7 @@
 
   [下載 Windows Launcher](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe)
   ·
-  [下載 Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.1-arm64-release.apk)
+  [下載 Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.2-arm64-release.apk)
   ·
   [所有發布檔案](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)
 </div>
@@ -97,7 +97,7 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 
 ### 2. 配對 Android
 
-1. 安裝 [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.1-arm64-release.apk)。
+1. 安裝 [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.2-arm64-release.apk)。
 2. 確保手機與電腦連接同一個私人網路。
 3. 在電腦顯示四位配對碼。
 4. 在手機選擇電腦並輸入配對碼。
@@ -140,11 +140,11 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 
 | 元件 | 版本 | 狀態 |
 |---|---:|---|
-| Windows Launcher | 1.0.1 | 已發布 |
-| RTX 40／50 app／runtime | 1.0.1 | 已發布；RTX 5070 Ti 已驗證 |
-| Android arm64 APK | 1.0.1 | 已發布；尚待實體手機矩陣驗證 |
+| Windows Launcher | 1.0.2 | 已發布 |
+| RTX 40／50 app／runtime | 1.0.2 | 已發布；RTX 5070 Ti 已驗證 |
+| Android arm64 APK | 1.0.2 | 已發布；尚待實體手機矩陣驗證 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.1) 或 [Hugging Face 檔案列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.2) 或 [Hugging Face 檔案列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常見問題
 
