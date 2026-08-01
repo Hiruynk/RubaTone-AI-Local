@@ -7,15 +7,15 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.0-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.0)
+  [![Release](https://img.shields.io/badge/release-v1.0.1-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.1)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
   ![Mode](https://img.shields.io/badge/runtime-local--first-2563EB?style=flat-square)
 
-  [Download Windows Launcher](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Launcher-Setup.exe)
+  [Download Windows Launcher](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe)
   ·
-  [Download Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.0-arm64-release.apk)
+  [Download Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.1-arm64-release.apk)
   ·
   [All release files](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)
 </div>
@@ -88,8 +88,8 @@ The APK is published, but the physical Android device matrix has not yet been va
 
 ### 1. Install on Windows
 
-1. Download and run the [RubaTone AI Launcher installer](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Launcher-Setup.exe).
-2. Choose an installation location. The Launcher detects the GPU and recommends a compatible variant.
+1. Download and run the [RubaTone AI Local Launcher installer](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe).
+2. Start with the safe default location, or customize it if needed. The Launcher detects the GPU and recommends a compatible variant automatically.
 3. Download the complete runtime. The Launcher verifies manifests, volumes, and every reconstructed file.
 4. Start RubaTone AI Local after verification completes.
 
@@ -97,7 +97,7 @@ The Launcher supports pause, resume, repair, move, optional updates, and rollbac
 
 ### 2. Pair Android
 
-1. Install the [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.0-arm64-release.apk).
+1. Install the [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.1-arm64-release.apk).
 2. Connect the phone and PC to the same private network.
 3. Display the four-digit pairing code on the PC.
 4. Select the PC on Android and enter the code.
@@ -140,11 +140,11 @@ You can also verify published files manually with [`SHA256SUMS.json`](https://hu
 
 | Component | Version | Status |
 |---|---:|---|
-| Windows Launcher | 1.0.0 | Released |
-| RTX 40 / 50 runtime | 1.0.0 | Released; RTX 5070 Ti validated |
-| Android arm64 APK | 1.0.0 | Released; physical-device matrix pending |
+| Windows Launcher | 1.0.1 | Released |
+| RTX 40 / 50 app / runtime | 1.0.1 | Released; RTX 5070 Ti validated |
+| Android arm64 APK | 1.0.1 | Released; physical-device matrix pending |
 
-See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.0) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
+See the [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.1) or [Hugging Face file list](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main).
 
 ## FAQ
 
@@ -163,7 +163,7 @@ No. Android is the remote-control interface. AI inference and data storage remai
 <details>
 <summary><strong>Can Android continue working after I close the Windows window?</strong></summary>
 
-Yes. Choose the option to close the window while keeping RubaTone AI running in the background. Jobs, core services, and the phone connection remain active.
+Yes. Choose the option to close the window while keeping RubaTone AI Local running in the background. Jobs, core services, and the phone connection remain active.
 </details>
 
 <details>
