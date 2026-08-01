@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.4-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.4)
+  [![Release](https://img.shields.io/badge/release-v1.0.5-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.5)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -90,7 +90,7 @@ APK 已发布，但目前尚未完成 Android 实体手机矩阵验证。
 
 1. 下载并运行 [RubaTone AI Local Launcher 安装器](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe)。
 2. 直接开始安装，或按需自定义位置；未选择时 Launcher 会使用安全的默认位置，并自动检测 GPU、推荐可用版本。
-3. 下载完整 runtime。Launcher 会验证 manifest、分卷和重建后的每个文件。
+3. 下载完整 runtime。Launcher 会同时获取多个分卷，并验证 manifest、分卷和重建后的每个文件。
 4. 验证完成后启动 RubaTone AI Local。
 
 Launcher 支持暂停、续传、修复、移动、可选更新和更新失败回滚。已有完整安装时，即使没有 Internet 也可直接启动当前版本。
@@ -140,11 +140,11 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 
 | 组件 | 版本 | 状态 |
 |---|---:|---|
-| Windows Launcher | 1.0.4 | 已发布 |
+| Windows Launcher | 1.0.5 | 已发布 |
 | RTX 40 / 50 app / runtime | 1.0.2 | 已发布；RTX 5070 Ti 已验证 |
 | Android arm64 APK | 1.0.2 | 已发布；等待实体手机矩阵验证 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.4) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.5) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常见问题
 
