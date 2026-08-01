@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.2-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.2)
+  [![Release](https://img.shields.io/badge/release-v1.0.3-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.3)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -140,11 +140,11 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 
 | 组件 | 版本 | 状态 |
 |---|---:|---|
-| Windows Launcher | 1.0.2 | 已发布 |
+| Windows Launcher | 1.0.3 | 已发布 |
 | RTX 40 / 50 app / runtime | 1.0.2 | 已发布；RTX 5070 Ti 已验证 |
 | Android arm64 APK | 1.0.2 | 已发布；等待实体手机矩阵验证 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.2) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.3) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常见问题
 
