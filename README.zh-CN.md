@@ -7,7 +7,7 @@
 
   [繁體中文](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md)
 
-  [![Release](https://img.shields.io/badge/release-v1.0.7-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7)
+  [![Release](https://img.shields.io/badge/release-v1.0.8-7c3aed?style=flat-square)](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8)
   ![Windows](https://img.shields.io/badge/Windows-11%20x64-0078D4?style=flat-square&logo=windows11&logoColor=white)
   ![GPU](https://img.shields.io/badge/NVIDIA-RTX%2040%20%2F%2050-76B900?style=flat-square&logo=nvidia&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
@@ -131,7 +131,7 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 - Launcher 每次打开时可检查更新；所有更新都可以跳过。
 - manifest 使用发布密钥签名，Launcher 只接受内置公钥验证通过的内容。
 - runtime 使用内容分块和 SHA-256 验证，只下载缺少或已变更的数据。
-- 新版本先在 staging 目录完整重建和验证，成功后才切换。
+- 更新只在 staging 重建变更文件，未变更且已验证的 runtime 以同磁盘硬链接沿用；成功后才切换。
 - 更新失败时保留并恢复上一个可启动版本。
 
 你也可以下载 [`SHA256SUMS.json`](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/SHA256SUMS.json) 手动核对发布文件。
@@ -140,11 +140,11 @@ Launcher 支持暂停、续传、修复、移动、可选更新和更新失败�
 
 | 组件 | 版本 | 状态 |
 |---|---:|---|
-| Windows Launcher | 1.0.7 | 已发布 |
+| Windows Launcher | 1.0.8 | 已发布 |
 | RTX 40 / 50 app / runtime | 1.0.4 | 已发布；RTX 5070 Ti 已验证 |
 | Android arm64 APK | 1.0.2 | 已发布；等待实体手机矩阵验证 |
 
-查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.7) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
+查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.8) 或 [Hugging Face 文件列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
 ## 常见问题
 
