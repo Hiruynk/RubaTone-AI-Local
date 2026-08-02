@@ -15,7 +15,7 @@
 
   [下載 Windows Launcher](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-Launcher-Setup.exe)
   ·
-  [下載 Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.2-arm64-release.apk)
+  [下載 Android APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.3-arm64-release.apk)
   ·
   [所有發布檔案](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)
 </div>
@@ -97,13 +97,21 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 
 ### 2. 配對 Android
 
-1. 安裝 [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.2-arm64-release.apk)。
+1. 安裝 [Android arm64 APK](https://huggingface.co/hiruynk/RubaTone-AI-Local/resolve/main/RubaTone-AI-Local-1.0.3-arm64-release.apk)。
 2. 確保手機與電腦連接同一個私人網路。
 3. 在電腦顯示四位配對碼。
 4. 在手機選擇電腦並輸入配對碼。
 5. 在電腦確認手機名稱及裝置指紋。
 
 配對成功後，手機以可撤銷的裝置金鑰自動重連。電腦關閉主視窗時可選擇繼續在背景運行，讓手機仍能操作。
+
+
+## 1.0.5 修正
+
+- 修正 Windows 關窗對話框的「完全結束」與「關閉視窗並在背景運作」沒有反應。
+- 修正同一私人網路上的 Android 無法找到電腦，以及 mDNS 重複註冊使 Core 結束。
+- 修正處理完成的音訊與 ZIP 下載，改由原生儲存對話框保存正確內容與檔名。
+- Android 1.0.3 同步修正 Local 指令權限、配對狀態提示及 VPN／虛擬網卡位址選擇。
 
 ## 資料與私隱
 
@@ -141,8 +149,8 @@ Launcher 支援暫停、續傳、修復、搬移、可選更新及更新失敗�
 | 元件 | 版本 | 狀態 |
 |---|---:|---|
 | Windows Launcher | 1.0.9 | 已發布 |
-| RTX 40／50 app／runtime | 1.0.4 | 已發布；RTX 5070 Ti 已驗證 |
-| Android arm64 APK | 1.0.2 | 已發布；尚待實體手機矩陣驗證 |
+| RTX 40／50 app／runtime | 1.0.5 | 已發布；RTX 5070 Ti 已驗證 |
+| Android arm64 APK | 1.0.3 | 已發布；尚待實體手機矩陣驗證 |
 
 查看 [GitHub Release](https://github.com/Hiruynk/RubaTone-AI-Local/releases/tag/v1.0.9) 或 [Hugging Face 檔案列表](https://huggingface.co/hiruynk/RubaTone-AI-Local/tree/main)。
 
